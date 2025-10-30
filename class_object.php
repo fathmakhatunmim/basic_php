@@ -2,7 +2,7 @@
 
  class class1{
 
-    public $a=2;
+     public  $a=2;
 
     function fun1(){
         // echo "fun1";
@@ -37,24 +37,6 @@
 // $obj1->fun1();
 // echo $obj1->a . "<br>";
 // // echo $obj2->a;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
  ?>
