@@ -2,9 +2,10 @@
 
 class base {
 
-    public static $name = "yahoo baba";
+    public static $name = "yahoo baba";//properties
 
-    public static function show(){
+    public static function show()//method
+    {
         echo self:: $name;
 
     }
