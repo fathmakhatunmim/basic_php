@@ -17,7 +17,7 @@
 
  }
 
-    $obj = new class1();
+    $obj = new class1(27);
     // $obj -> fun1();
     echo $obj -> a;
 
@@ -37,6 +37,35 @@
 // $obj1->fun1();
 // echo $obj1->a . "<br>";
 // // echo $obj2->a;
+echo "<br>";
+class class2
+{
+    public $a;
+
+    function __construct($b)
+    {
+        $this-> a = $b;   // constructor স্বয়ংক্রিয়ভাবে কাজ করছে
+    }
+}
+
+$obj = new class2(27);  // object তৈরি করার সময় মান পাঠানো
+echo $obj->a;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  ?>
