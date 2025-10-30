@@ -1,5 +1,5 @@
 <?php
-
+//class ar object  automatic call hoye jai
 class class1{
 
     //starts with two underscores (__)!
