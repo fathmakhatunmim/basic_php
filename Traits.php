@@ -1,7 +1,11 @@
 <?php 
 trait hello {
     public function sayhello(){
-        echo "hello everyone";
+        echo "hello everyone\n";
+
+    }
+    public function sayhi(){
+        echo "hi everyone\n";
 
     }
 }
@@ -28,6 +32,8 @@ $test = new base(10);
 // $test1 = new base1();
 
 $test -> sayhello();
+echo "<br>";
+$test -> sayhi();
 echo "<br>";
 $test -> saybye();
 
